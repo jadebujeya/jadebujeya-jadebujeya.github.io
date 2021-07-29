@@ -27,20 +27,23 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: verdana
+	font-family: verdana;
 	}
 }
 Air America Regular 
 h1 {
-  color: white;
+    color: white;
+  	font-family: verdana;
   
 }
 h2 {
 	color: black;
+	font-family: verdana;
 	
 }
 h3 {
 	color: black;
+	font-family: verdana;
 }
 p {
   color: black;
@@ -48,6 +51,7 @@ p {
   margin: 15px;
   border: 2px solid black;
   background-color: rgba(228,195,226,0.5);
+  font-family: verdana;
 }
 a:link {
   color: pink;
