@@ -19,7 +19,7 @@
 		background-image: url('Images/AYVHand.jpg');
 		background-repeat: no-repeat;
 		background-attachment: scroll;
-		background-size: cover;
+		background-size: fixed;
 		z-index=0;
 	}
 }
