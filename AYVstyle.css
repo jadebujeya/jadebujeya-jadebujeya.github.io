@@ -14,14 +14,11 @@
 @media (max-width: 620px) 
 {
 	body {
-		background-color: rgba(255, 148, 170, 0.6); 
-		font-family: verdana;
-		background: url('Images/AYVHand.jpg') no-repeat center center fixed;
+		background: url(Images/AYVHand.jpg) no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		background-attachment: fixed;
 	}
 }
 Air America Regular 
