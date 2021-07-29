@@ -27,6 +27,8 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	}
+	body {
 	font-family: verdana;
 	}
 }
@@ -220,4 +222,5 @@ table {
 	font-size: 14;
 	font-weight: normal;
 	font-style: italic;
+	font-family: verdana;
 }
