@@ -17,7 +17,7 @@ document.write(`
 	<ul>
 	  <li><a href="index.html">About Us</a></li>
 	  <li><a href="projects.html">Our Work</a></li>
-	  <li><a href="contact.html">Contact</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
 	</ul>
 </div>
 `);
