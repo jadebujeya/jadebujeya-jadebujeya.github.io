@@ -6,7 +6,7 @@
 <center>
 <form action="/umbrella/umbrella.pl" method="post" id="my-form">
 <div id="align">
-<input type="hidden" name="required" value="subject,name,email" />
+<input type="hidden" name="required" value="subject,name,email,comments" />
 <input type="hidden" name="title" value="Thank you for contacting our company" />
 <input type="hidden" name="return_link_url" value="https://www.example.com/index.shtml" />
 <input type="hidden" name="return_link_title" value="Go to the Homepage" />
@@ -17,7 +17,7 @@
 <label for="tel">Phone (optional):</label><br />
 <span><input type="tel" name="tel" id="phone1" class="data-entry" /></span><br /><br />
 <label for="email">Email Adress (required):</label><br />
-<span><input type="tel" name="phone" id="tel" class="data-entry" /></span><br /><br />
+<span><input type="email" name="email" id="tel" class="data-entry" /></span><br /><br />
 <label for="comments1">Message:</label><br />
 <span><textarea name="comments" id="comments1" rows="20" cols="50"></textarea></span><br /><br />
 <span><input class="button" type="reset" value="RESET" />
