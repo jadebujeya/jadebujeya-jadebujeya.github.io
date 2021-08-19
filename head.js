@@ -2,7 +2,7 @@ document.write(`
 <!DOCTYPE html>
 <html lang="en-AU">
 <head>
-<title>Activate Youth Voice Internal</title>
+<title>Activate Youth Voice</title>
 <link rel="stylesheet" href="AYVstyle.css">
 <meta http-equiv="refresh" content="300">
 <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0">
