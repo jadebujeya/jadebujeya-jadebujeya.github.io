@@ -1,0 +1,27 @@
+<script src="head.js"></script>
+
+<div id="sample">
+<h2>Contact Us</h2>
+<p>If you would like to contact us, please fill in the form below and click Submit.</p>
+<center>
+<form action="https://formspree.io/f/mjvjpbnb" method="POST">
+<div id="align">
+<input type="hidden" name="required" value="subject,name,_replyto,body" />
+<label for="subject1">Subject (required):</label><br />
+<span><input type="text" name="subject" id="subject1" class="data-entry" /></span><br /><br/>
+<label for="name1">Name (required):</label><br />
+<span><input type="text" name="name" id="name1" class="data-entry" /></span><br /><br />
+<label for="phone1">Phone (optional):</label><br />
+<span><input type="tel" name="tel" id="phone1" class="data-entry" /></span><br /><br />
+<label for="email1">Email Adress (required):</label><br />
+<span><input type="email" name="_replyto" id="email1" class="data-entry" /></span><br /><br />
+<label for="comments1">Message:</label><br />
+<span><textarea name="body" id="comments1" rows="20" cols="50"></textarea></span><br /><br />
+<span><input class="button" type="reset" value="RESET" />
+<input type="submit" name ="submit" value="SUBMIT"/></span><br />
+</div><!--end div align-->
+</form>
+</div><!--end div sample-->
+</center>
+
+<script src="foot.js"></script>
