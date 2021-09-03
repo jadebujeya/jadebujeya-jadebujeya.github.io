@@ -32,7 +32,7 @@
 	font-family: verdana;
 	}
 }
-Air America Regular 
+/* Air America Regular */
 h1 {
     color: white;
   	font-family: verdana;
@@ -224,8 +224,8 @@ td {
 	width: 98.5%;
 	z-index: 1;
 }
-background-color: rgb(228,195,226);
-position: fixed;
+/* background-color: rgb(228,195,226);
+position: fixed; */
 
 .inBar {
 	display: inline-block;
