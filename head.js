@@ -5,8 +5,8 @@ document.write(`
 <title>Activate Youth Voice</title>
 <link rel="stylesheet" href="AYVstyle.css">
 <link rel="icon" typle="image/jpg" href=Images/favicon.jpg>
-<meta http-equiv="refresh" content="300">
-<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="refresh", content="300">
+<meta name="viewport", content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <!-- look up <base> you're going to need it, specifies base url for page-->
 </head>
 <body>
