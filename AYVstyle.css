@@ -445,3 +445,42 @@ table {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* tree and roses object*/
+
+.static {
+  position:absolute;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+.roseList {
+	display: none; 
+	margin: 10px 0;
+}
+
+
+.valuesImages {
+	max-width: 100%;
+	margin-top: 10px;
+	position: relative;
+	border: solid black 2px;
+	/*max-height: 6em;
+	object-fit: contain;
+	top: 13px;*/
+	
+}
+
+.flex-box {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 10px;
+}
+
+.valuesText {
+  flex: 2; 
+  padding-left: 10px;
+  padding-right: 10px;
+}

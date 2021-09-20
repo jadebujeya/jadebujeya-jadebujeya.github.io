@@ -1,34 +1,113 @@
 <script src="head.js"></script>
 
-<div class="box">
-<h2 style="text-align:center">Our Vision and Our Mission</h2>
-<p style="padding: 15px; text-align:center;">
-    Form an active partnership with the community and the young people within it. 
-	<br><br>
-	~
-	<br><br>
-	Help provide real world insight on the issues young people face.
-	<br><br>
-	~
-	<br><br>
-	Create a safe, fun and engaging way to engage young people.
-	<br><br>
-	~
-	<br><br>
-	Build meaningful contributions to representation, research, advocacy and advisory committees on youth related issues.
-	<br><br>
-	~
-	<br><br>
-	Make safe and engaging spaces for young people to have a voice in local government decisions, as well as the broader community. 
-	<br><br>
-	~
-	<br><br>
-	Create a society where young people are valued as the core ingredient of the future they are, and feel a sense of connection and belonging to their society in return.
-	<br><br>
-	~
-	<br><br>
-	Bring empowerment to groups that are often misrepresented, misunderstood, marginalised, or are not able to participate.
-	</p>
-	</div>
+<div class="box"  style="text-align: center;">
+
+<h2 style="text-align:center; display: auto; margin-left: 20px">Our Vision and Our Mission</h2>
+<p id="vis">Mouse over the tree to learn about the seven elements of our mission.</p>
+
+<div style="display: flex; margin: auto; justify-content: center;">
+<div style="width: min(500px,100%); position: relative; border: black solid 2px; margin-bottom:10px">
+
+<img src="Images/tree2.jpg" alt="tree" style="width: 100%;">
+
+
+
+<img src="Images/rose.png" id="rose0" style="width: 4%; position: absolute; top: 40%; left: 10%" onmouseover="roseFunct(id,0)" language="javascript">
+<img src="Images/rose.png" id="rose1" style="width: 4%; position: absolute; top: 20%; left: 49%" onmouseover="roseFunct(id,1)" language="javascript">
+<img src="Images/rose.png" id="rose2" style="width: 4%; position: absolute; top: 50%; left: 75%" onmouseover="roseFunct(id,2)" language="javascript">
+<img src="Images/rose.png" id="rose3" style="width: 4%; position: absolute; top: 35%; left: 65%" onmouseover="roseFunct(id,3)" language="javascript">
+<img src="Images/rose.png" id="rose4" style="width: 4%; position: absolute; top: 33%; left: 35%" onmouseover="roseFunct(id,4)" language="javascript">
+<img src="Images/rose.png" id="rose5" style="width: 4%; position: absolute; top: 47%; left: 25%" onmouseover="roseFunct(id,5)" language="javascript">
+<img src="Images/rose.png" id="rose6" style="width: 4%; position: absolute; top: 45%; left: 55%" onmouseover="roseFunct(id,6)" language="javascript">
+</div>
+
+
+</div>
+
+
+<script>
+v = [0,0,0,0,0,0,0]; 
+myTimer = setTimeout(instruction, 8000);
+
+function makeFixed(value) {
+	document.getElementById("list").style.display="inherit";
+	if(value == 1) {
+		var name1 = "rose".concat(v.indexOf(value));
+		document.getElementById(name1).src = "Images/rose2.png";
+		v[v.indexOf(value)]=2;
+	}
+}
+
+function instruction() {
+  document.getElementById("vis").innerHTML ="Mouse over the tree to learn about the seven elements of our mission.";
+}
+
+function roseFunct(name,num) {
+/*equality checking expression not working so jumpts straight to png*/
+  document.getElementById(name).src = "Images/rose1.gif";
+  
+  v.forEach(makeFixed);
+  v[num]=1;
+  
+  switch (num) {
+	case 0:
+		document.getElementById("vis").innerHTML = "<i>\"Form an active partnership with the community and the young people within it.\"</i>";
+		document.getElementById("l0").style.display="list-item";
+		break;
+	case 1:
+		document.getElementById("vis").innerHTML = "<i>\"Help provide real world insight on the issues young people face.\"</i>";
+		document.getElementById("l1").style.display="list-item";
+		break;
+	case 2:
+		document.getElementById("vis").innerHTML = "<i>\"Create a safe, fun and engaging way to engage young people.\"</i>";
+		document.getElementById("l2").style.display="list-item";
+		break;
+	case 3:
+		document.getElementById("vis").innerHTML = "<i>\"Build meaningful contributions to representation, research, advocacy and advisory committees on youth related issues.\"</i>";
+		document.getElementById("l3").style.display="list-item";
+		break;
+	case 4:
+		document.getElementById("vis").innerHTML = "<i>\"Make safe and engaging spaces for young people to have a voice in local government decisions, as well as the broader community.\"</i>";
+		document.getElementById("l4").style.display="list-item";
+		break;
+	case 5:
+		document.getElementById("vis").innerHTML = "<i>\"Create a society where young people are valued as the core ingredient of the future they are, and feel a sense of connection and belonging to their society in return.\"</i>";
+		document.getElementById("l5").style.display="list-item";
+		break;
+	case 6:
+		document.getElementById("vis").innerHTML = "<i>\"Bring empowerment to groups that are often misrepresented, misunderstood, marginalised, or are not able to participate.\"</i>";
+		document.getElementById("l6").style.display="list-item";
+		break;
+	default:
+		document.getElementById("vis").innerHTML = "<i>\"Sorry, there seems to be a problem with this page. Try reloading it, and if the problem persists, please use the Contatc Us page to let us know.\"</i>";
+		break;
+  }
+	clearTimeout(myTimer);
+	myTimer = setTimeout(instruction, 8000);
+}
+</script>
+
+<div style="display: none; text-align: left" id="list">
+<ul>
+<li class="roseList" id="l0"><i>"Form an active partnership with the community and the young people within it."</i></li>
+<li class="roseList" id="l1"><i>"Help provide real world insight on the issues young people face."</i></li>
+<li class="roseList" id="l2"><i>"Create a safe, fun and engaging way to engage young people."</i></li>
+<li class="roseList" id="l3"><i>"Build meaningful contributions to representation, research, advocacy and advisory committees on youth related issues."</i></li>
+<li class="roseList" id="l4"><i>"Make safe and engaging spaces for young people to have a voice in local government decisions, as well as the broader community."</i></li>
+<li class="roseList" id="l5"><i>"Create a society where young people are valued as the core ingredient of the future they are, and feel a sense of connection and belonging to their society in return."</i></li>
+<li class="roseList" id="l6"><i>"Bring empowerment to groups that are often misrepresented, misunderstood, marginalised, or are not able to participate."</i></li>
+</ul>
+</div>
+
+</div>
+
+
+
+<!--
+usemap="#treemap"
+
+<map name="treemap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map> -->
 
 <script src="foot.js"></script>
