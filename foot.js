@@ -13,7 +13,7 @@ document.write(`
 <div style="display:flex; justify-content: center; justify-content: space-between; padding-left: 10%; padding-right: 10%; font-size:10px">
 <div>Pictures from <a href="https://pixabay.com/">pixabay.com</a></div>
 <div>Website by Jade Bujeya</div>
-<div>Updated September 2021</div>
+<div>Version 3.2	Updated February 2022</div>
 </div>
 
 </body>

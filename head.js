@@ -31,6 +31,7 @@ onresize="window.location.reload()"
 		</div>
 	  </li>
 	  <li><a href="projects.html">Our Work</a></li>
+	  <li><a href="clientInfo.html">Client Info</a></li>
 	  <li style="float: right"><a href="contact.html">Contact Us</a></li>
 	</ul>
 </div>
